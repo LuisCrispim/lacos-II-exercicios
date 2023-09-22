@@ -5,3 +5,11 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+let atacante = 1
+for (let i = 0; i < array.length; i++) {
+
+    console.log(`Atacante ${atacante++}: ${array[i]}`)
+}
+
+
